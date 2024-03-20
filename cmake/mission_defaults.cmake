@@ -55,6 +55,7 @@ set(MISSION_GLOBAL_STATIC_APPLIST)
 # the environment variable "CFS_APP_PATH"
 set(MISSION_MODULE_SEARCH_PATH
     "apps"                  # general purpose $[top}/apps directory
+    "apps/sbn/modules/protocol"
     "libs"                  # general purpose $[top}/libs directory
     "psp/fsw/modules"       # modules for optional platform abstraction, associated with PSP
     "cfe/modules"           # modules for optional core functions, associated with CFE
