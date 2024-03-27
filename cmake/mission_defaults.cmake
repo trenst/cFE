@@ -58,6 +58,8 @@ set(MISSION_MODULE_SEARCH_PATH
     "libs"                  # general purpose $[top}/libs directory
     "psp/fsw/modules"       # modules for optional platform abstraction, associated with PSP
     "cfe/modules"           # modules for optional core functions, associated with CFE
+    "apps/sbn/modules/protocol"
+    "apps/sbn/modules/filter"
 )
 
 # The path for specific components can also be set via
