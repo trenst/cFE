@@ -87,5 +87,7 @@ typedef struct
         x                      \
     }
 #define CFE_RESOURCEID_UNWRAP(x) (x).id
+#define CFE_RESOURCEID_UNUNWRAP(x) (x).id.id
+#define CFE_RESOURCEID_WRAPWRAP(x) {.id = {.id = x}}
 
 #endif /* CFE_RESOURCEID_STRICT_H */

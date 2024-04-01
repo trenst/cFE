@@ -61,5 +61,7 @@ typedef uint32 CFE_ResourceId_t;
  */
 #define CFE_RESOURCEID_WRAP(x)   x
 #define CFE_RESOURCEID_UNWRAP(x) x
+#define CFE_RESOURCEID_UNUNWRAP(x) x
+#define CFE_RESOURCEID_WRAPWRAP(x) x
 
 #endif /* CFE_RESOURCEID_SIMPLE_H */
