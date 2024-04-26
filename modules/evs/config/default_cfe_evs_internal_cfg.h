@@ -165,7 +165,7 @@
 **  \par Limits
 **       The valid settings are 0x0 to 0xF.
 */
-#define CFE_PLATFORM_EVS_DEFAULT_TYPE_FLAG 0xE
+#define CFE_PLATFORM_EVS_DEFAULT_TYPE_FLAG 0xF
 
 /**
 **  \cfeevscfg Default EVS Local Event Log Mode
